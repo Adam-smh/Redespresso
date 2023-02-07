@@ -2,10 +2,16 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
+import { HomeComponent } from './view/pages/home/home.component';
+import { LayoutComponent } from './view/layout/layout.component';
+import { NavComponent } from './view/layout/nav/nav.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    HomeComponent,
+    LayoutComponent,
+    NavComponent
   ],
   imports: [
     BrowserModule
